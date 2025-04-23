@@ -8,6 +8,7 @@ public class Main {
             left = right = null;
         }
     }
+    
     public static int countLeaf(TreeNode root){
         if(root==null){
             return 0;
