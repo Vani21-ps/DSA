@@ -8,6 +8,7 @@ public class Main {
             left = right = null;
         }
     }
+    
     public static int findMax(TreeNode root){
         if(root==null) return Integer.MIN_VALUE;
         int leftMax=findMax(root.left);
