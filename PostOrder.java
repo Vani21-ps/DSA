@@ -8,6 +8,7 @@ public class Main {
             left = right = null;
         }
     }
+    
     public static int postOrder(TreeNode root){
         if(root==null) return 0;
       int leftCount = postOrder(root.left);
